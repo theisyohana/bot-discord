@@ -5,7 +5,7 @@ from discord.ext import commands
 from dotenv import load_dotenv
 import os
 
-load_dotenv("C:/Users/theis/OneDrive/Documentos/modals/.env")
+load_dotenv(".env")
 
 TOKEN = os.getenv("TOKEN")
 
